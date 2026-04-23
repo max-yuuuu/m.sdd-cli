@@ -1,0 +1,19 @@
+{
+  "name": "m.sdd-cli",
+  "owner": {
+    "name": "max-yuuuu"
+  },
+  "metadata": {
+    "description": "Custom skills library for Claude Code",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "m.sdd-cli",
+      "source": "./",
+      "description": "Custom skills library for Claude Code - test-hello and more skills to come",
+      "category": "development",
+      "tags": ["skills", "claude-code", "productivity"]
+    }
+  ]
+}
