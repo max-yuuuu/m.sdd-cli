@@ -1,11 +1,10 @@
 {
-  "name": "sdd-cli",
+  "name": "m.sdd-cli",
   "version": "0.0.1",
   "description": "Custom skills library for Claude Code",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+  "bin": {
+    "sdd": "./bin/sdd.js"
   },
   "keywords": [
     "claude-code",
